@@ -19,6 +19,7 @@ export default {
         this.playlistSongThree = document.querySelector('#playlistSongThree') 
         this.playlistSongFour = document.querySelector('#playlistSongFour') 
         this.playlistSongFive = document.querySelector('#playlistSongFive') 
+        this.currentPlaylist = document.querySelector('#current-playlist')
     },
 
     //Inicia o audio no html

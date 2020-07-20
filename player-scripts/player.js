@@ -119,5 +119,6 @@ export default {
         this.audio.onloadeddata = () => {
             elements.actions.call(this)
         }
+        this.currentPlaylist.innerText = this.currentAudio.playlistName
     }
 }

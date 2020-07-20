@@ -30,7 +30,7 @@
 }
 
 .main-title a:hover {
-    color: rgba(77, 6, 71, 0.432);
+    opacity: 0.3;
 }
 
 .main-title i {
@@ -40,10 +40,10 @@
 .music-list {
     transform: translateX(250px);
     grid-area: player;
-    margin-top: -70px;
+    margin-top: -200px;
     background-color: rgba(51, 53, 54, 0.527);;
     max-width: 450px;
-    height: 355px;
+    height: 455px;
     border-bottom: 20px solid rgba(0, 0, 0, 0.521);
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -56,20 +56,45 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Ubuntu';
     list-style: none;
-    font-size: 28px;
     border-bottom: 2px solid black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: 400ms;
+}
+
+.music-list a {
+    font-family: 'Ubuntu';
+    font-size: 24px;
+    color: #ededed;
+    text-decoration: none;
+    transition: 400ms;
+    font-weight: 500;
+}
+
+.music-list a:hover {
+    color: rgb(31, 30, 29);
+    background-color: rgba(255, 255, 255, 0.637);
+    border-radius: 10px 0px 10px 0px;
+}
+
+.music-list i {
+    font-size: 30px;
+    color: #ededed;
+}
+
+.music-list h5 {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu';
+    font-size: 22px;
+    font-weight: bold;
+    color: rgba(17, 16, 17, 0.637);
+    border-bottom: 10px double rgba(5, 5, 5, 0.466);
+    border-top: 10px double rgba(5, 5, 5, 0.466);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
 
-.music-list a {
-    color: black;
-    text-decoration: none;
-    transition: 400ms;
-}
-
-.music-list a:hover {
-    color: antiquewhite;
-}
