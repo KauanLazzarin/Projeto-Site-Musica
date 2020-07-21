@@ -1,3 +1,5 @@
+
+
 /* Começo da estilização do titulo */
 
 .main-title {
@@ -172,7 +174,7 @@
 
 /* Fim estilização 5 mais tocadas*/
 
-/*Copmeço estilização bandas mais tocadas*/
+/*Começo estilização bandas mais tocadas*/
 
 .top-bands-list {
     margin-top: 20px;
@@ -222,4 +224,26 @@
     font-weight: bold;
     color: #1f1d1d;
     border: 5px dotted rgba(0, 0, 0, 0.158);
+}
+
+/* Fim estilização top bandas*/
+
+/* Começo estilização footer */
+.page-footer {
+    background-color: rgba(51, 53, 54, 0.527);
+    box-sizing: 20px;
+    padding: 5px;
+    border-top: 5px solid rgba(0, 0, 0, 0.521);
+    margin-top: 10vh;
+}
+
+.page-footer h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    opacity: 0.6;
+    color: rgb(255, 255, 255);
 }
