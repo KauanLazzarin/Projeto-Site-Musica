@@ -54,15 +54,17 @@
 #main-menu ul li a {
     margin-bottom: 10px;
     display: inline-block;
-    font-size: 23.5px;
-    background-color:#595876d0;
+    font-size: 20px;
+    background-color:#4a4880d0;
     color: rgb(236, 233, 233);
     text-decoration: none;
     border-bottom:3px solid #EDEDED;
+    border-top:3px solid #ededed;
     transition: 400ms;
-    border-radius: 50px;
+    border-radius: 20px;
     font-family: 'Ubuntu';
-    
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 #main-menu ul li a:hover {
@@ -73,17 +75,17 @@
 
 #main-menu i {
     display: inline;
-    font-size: 38px;
-    padding: 10px;
+    font-size: 28px;
+    /* padding: 10px; */
 }
 
 #search-button {
     padding-top: 10.4px;
-    padding-bottom: 20.7px;
+    padding-bottom: 20.9px;
     margin-left: -4px;
     transform: translateY(-3px);
     width: 120px;
-    background-color: #595876d0;
+    background-color: #4a4880d0;
     border-top: none;
     border-right: none;
     border-left: none;
@@ -105,9 +107,9 @@
 #music-search {
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
-    font-size: 26px;
+    font-size: 22px;
     flex-direction: column;
-    background-color: #595876d0;
+    background-color: #4a4880d0;
     max-width: 405px;
     padding: 9.5px;
     border-bottom: 3px solid #EDEDED;
