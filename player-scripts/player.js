@@ -59,9 +59,11 @@ export default {
     skipToMusic (value) {
         this.pause()
         this.currentAudio = this.audioData[value]
+        this.seekBar.max = this.audio.duration
         this.cover.style.background = `url("${path(this.currentAudio.cover)}") no-repeat center center / cover`
         this.title.innerText = this.currentAudio.title
         this.artist.innerText = this.currentAudio.artist      
+        this.audio.ontimeupdate = () => this.timeUpdate()
         
         this.seekBar.oninput = () => this.setTimeBar(this.seekBar.value)
         this.seekBar.onclick = () => this.setTimeBar(this.seekBar.value)
@@ -69,9 +71,7 @@ export default {
         this.audio.onloadeddata = () => {
             elements.actions.call(this)
         }
-        this.play()
-        this.setAudioDuration()
-        this.setTimeUpdate()
+        this.play() 
     },
 
     returnMusic () {

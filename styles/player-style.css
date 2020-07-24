@@ -9,14 +9,6 @@ h4 {
     padding: 12px;
 }
 
-audio {
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
-}
-
 p {
     font-size: 20px;
     color: #443f3f;
@@ -26,7 +18,7 @@ p {
 #player {
     grid-area: musiclist;
     background: #141442;
-    width: 90%;
+    width: 70%;
     max-width: 350px;
     box-shadow: 70px 25px 500px 55px rgba(24, 87, 58, 0.5);
     margin-top: -200px;

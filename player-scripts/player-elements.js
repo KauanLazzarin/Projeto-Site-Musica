@@ -26,7 +26,7 @@ export default {
         //Pula para a próxima música ao terminar a atual
         this.audio.onended = () => this.next()
         //Atualiza a barra do timer em tempo real
-        const setTimeUpdate = this.audio.ontimeupdate = () => this.timeUpdate()
+        this.audio.ontimeupdate = () => this.timeUpdate()
 
         // Pausa ou continua a música
         this.playPause.onclick = () => this.togglePlayPause()
@@ -43,7 +43,7 @@ export default {
         // Saltar no time da música
         this.seekBar.oninput = () => this.setTimeBar(this.seekBar.value)
         this.seekBar.onclick = () => this.setTimeBar(this.seekBar.value)
-        const setAudioDuration = () => this.seekBar.max = this.audio.duration
+        this.seekBar.max = this.audio.duration
         this.totalDuration.innerText = fixTime(this.audio.duration)
 
         //Pula conforme a escolha na lista de músicas 
@@ -53,7 +53,5 @@ export default {
             DE MUSICAS NA PLAYLIST ATUAL.
         */
         // Execução de funções para funcionamento
-        setAudioDuration()
-        setTimeUpdate()
     }
 }
