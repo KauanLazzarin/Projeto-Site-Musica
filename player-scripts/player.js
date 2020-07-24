@@ -9,14 +9,13 @@ export default {
     currentPlaying: 0,
     
     fillUpPlaylistSongs () {
-        const filterSongs = song => song.title
-        let playlistSongs = this.audioData.map(filterSongs)
-        
-        this.playlistSongOne.innerText = playlistSongs[0]
-        this.playlistSongTwo.innerText = playlistSongs[1]
-        this.playlistSongThree.innerText = playlistSongs[2]
-        this.playlistSongFour.innerText = playlistSongs[3]
-        this.playlistSongFive.innerText = playlistSongs[4]
+        document.querySelectorAll('.playlistSong') 
+            .forEach (slot => {
+                this.listId = slot.getAttribute('listId')
+                slot.innerText = this.audioData[this.listId].title
+
+                slot.onclick = () => this.skipToMusic(slot.getAttribute('listId'))
+            })    
     },
 
     start () {
@@ -119,6 +118,5 @@ export default {
         this.audio.onloadeddata = () => {
             elements.actions.call(this)
         }
-        this.currentPlaylist.innerText = this.currentAudio.playlistName
     }
 }

@@ -14,12 +14,6 @@ export default {
         this.seekBar = document.querySelector('#seekbar')
         this.currentDuration = document.querySelector('#current-duration')
         this.totalDuration = document.querySelector('#total-duration')
-        this.playlistSongOne = document.querySelector('#playlistSongOne') 
-        this.playlistSongTwo = document.querySelector('#playlistSongTwo') 
-        this.playlistSongThree = document.querySelector('#playlistSongThree') 
-        this.playlistSongFour = document.querySelector('#playlistSongFour') 
-        this.playlistSongFive = document.querySelector('#playlistSongFive') 
-        this.currentPlaylist = document.querySelector('#current-playlist')
     },
 
     //Inicia o audio no html
@@ -58,12 +52,6 @@ export default {
             AREA PARA SE REVER, FALTA SER DINAMICA A QUANTIDADE 
             DE MUSICAS NA PLAYLIST ATUAL.
         */
-        this.playlistSongOne.onclick = () => this.skipToMusic (0)
-        this.playlistSongTwo.onclick = () => this.skipToMusic (1)
-        this.playlistSongThree.onclick = () => this.skipToMusic(2)
-        this.playlistSongFour.onclick = () => this.skipToMusic (3)
-        this.playlistSongFive.onclick = () => this.skipToMusic (4)
-
         // Execução de funções para funcionamento
         setAudioDuration()
         setTimeUpdate()
