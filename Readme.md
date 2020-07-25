@@ -7,3 +7,10 @@ O player desse projeto foi desenvolvido com base no vídeo do Mayk Brito no cana
 Link do vídeo do Mayk:  https://www.youtube.com/watch?v=vqrjFnq3-uo 
 
 - Apenas a estilização foi feita um pouco diferente, mas o código em sí é quase que uma cópia do dele (tirando algumas implementações extrar que coloquei na page)
+
+# English
+
+### The Audio Player
+
+The player of this project has been developed using the Mayk Brito's video in the Rocketseat Youtube Channel (I immplemented a few changes on the player page)
+Just the style of the page is a little different, the main code of the player had been developed by Mayk Brito 
