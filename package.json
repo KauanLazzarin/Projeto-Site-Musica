@@ -3,10 +3,7 @@
   "version": "1.0.0",
   "description": "* Progresso do projeto conforme o meu progresso nos estudos de programação",
   "main": "server.js",
-  "dependencies": {
-    "express.js": "^1.0.0",
-    "nodemon": "^2.0.4"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "scripts": {
     "start": "nodemon",
