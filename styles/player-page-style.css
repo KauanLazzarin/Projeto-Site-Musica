@@ -42,7 +42,7 @@
     grid-area: player;
     margin-top: -200px;
     background-color: rgba(51, 53, 54, 0.527);;
-    max-width: 450px;
+    max-width: 350px;
     height: 455px;
     border-bottom: 20px solid rgba(0, 0, 0, 0.521);
     border-bottom-left-radius: 30px;

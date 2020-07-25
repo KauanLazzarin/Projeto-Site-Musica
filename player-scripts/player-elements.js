@@ -14,6 +14,7 @@ export default {
         this.seekBar = document.querySelector('#seekbar')
         this.currentDuration = document.querySelector('#current-duration')
         this.totalDuration = document.querySelector('#total-duration')
+        this.currentPlaylist = document.querySelector('#current-playlist')
     },
 
     //Inicia o audio no html
@@ -46,12 +47,5 @@ export default {
         this.seekBar.max = this.audio.duration
         this.totalDuration.innerText = fixTime(this.audio.duration)
 
-        //Pula conforme a escolha na lista de músicas 
-
-        /*
-            AREA PARA SE REVER, FALTA SER DINAMICA A QUANTIDADE 
-            DE MUSICAS NA PLAYLIST ATUAL.
-        */
-        // Execução de funções para funcionamento
     }
 }
