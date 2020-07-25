@@ -1,0 +1,26 @@
+{
+  "name": "projeto_site",
+  "version": "1.0.0",
+  "description": "* Progresso do projeto conforme o meu progresso nos estudos de programação",
+  "main": "server.js",
+  "dependencies": {
+    "express.js": "^1.0.0",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KayLazz/Projeto-Site-M-sica.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KayLazz/Projeto-Site-M-sica/issues"
+  },
+  "homepage": "https://github.com/KayLazz/Projeto-Site-M-sica#readme"
+}
