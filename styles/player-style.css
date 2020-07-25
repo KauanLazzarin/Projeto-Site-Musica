@@ -28,7 +28,7 @@ p {
 
 #vol {
     color: #141442;
-    transform: translateY(2px);
+    transform: translateY(3px);
 }
 
 #current-duration, #total-duration {
@@ -54,8 +54,8 @@ p {
 }
 
 
-#skip-next:hover, #skip-previous:hover, #play-pause:hover {
-    color: rgba(116, 115, 115, 0.705);
+#skip-next:hover, #skip-previous:hover, #play-pause:hover, #vol:hover {
+    opacity: 0.6;
 }
 
 .card {

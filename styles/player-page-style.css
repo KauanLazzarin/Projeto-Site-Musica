@@ -44,11 +44,14 @@
     background-color: rgba(51, 53, 54, 0.527);;
     max-width: 350px;
     height: 455px;
-    border-bottom: 20px solid rgba(0, 0, 0, 0.521);
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-bottom: 15px solid rgba(0, 0, 0, 0.521);
+    border-top: 15px solid rgba(0, 0, 0, 0.521);
+    border-right: 10px solid #18033852;
+    border-left: 10px solid #18033852;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 .music-list ul li {
@@ -91,9 +94,9 @@
     font-family: 'Ubuntu';
     font-size: 22px;
     font-weight: bold;
-    color: rgba(17, 16, 17, 0.637);
-    border-bottom: 10px double rgba(5, 5, 5, 0.466);
-    border-top: 10px double rgba(5, 5, 5, 0.466);
+    color: rgba(17, 16, 17, 0.767);
+    border-bottom: 10px double #18033852;
+    border-top: 10px double #18033852;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
