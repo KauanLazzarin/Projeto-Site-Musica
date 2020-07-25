@@ -60,9 +60,9 @@
     align-items: center;
     justify-content: center;
     list-style: none;
-    border-bottom: 2px solid black;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-bottom: 2px solid #18033852;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     transition: 400ms;
 }
 
@@ -77,7 +77,7 @@
 
 .music-list a:hover {
     color: rgb(31, 30, 29);
-    background-color: rgba(255, 255, 255, 0.637);
+    background-color: rgba(255, 255, 255, 0.253);
     border-radius: 10px 0px 10px 0px;
 }
 
