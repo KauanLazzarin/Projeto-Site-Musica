@@ -15,6 +15,8 @@ export default {
         this.currentDuration = document.querySelector('#current-duration')
         this.totalDuration = document.querySelector('#total-duration')
         this.currentPlaylist = document.querySelector('#current-playlist')
+        this.returnSeconds = document.querySelector('#returnSeconds')
+        this.advanceSeconds = document.querySelector('#advanceSeconds')
     },
 
     //Inicia o audio no html
@@ -44,8 +46,9 @@ export default {
         // Saltar no time da música
         this.seekBar.oninput = () => this.setTimeBar(this.seekBar.value)
         this.seekBar.onclick = () => this.setTimeBar(this.seekBar.value)
+        this.returnSeconds.onclick = () => this.returnMusicTime()
+        this.advanceSeconds.onclick = () => this.advanceMusicTime()
         this.seekBar.max = this.audio.duration
         this.totalDuration.innerText = fixTime(this.audio.duration)
-
     }
 }

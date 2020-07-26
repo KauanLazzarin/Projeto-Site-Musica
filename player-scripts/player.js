@@ -71,6 +71,14 @@ export default {
         this.play()
     },
 
+    returnMusicTime () {
+        this.audio.currentTime = this.audio.currentTime - 10
+    },
+
+    advanceMusicTime () {
+        this.audio.currentTime+=10
+    },
+
     changeSoundVolum (value) {
         this.audio.volume = value / 100
     },

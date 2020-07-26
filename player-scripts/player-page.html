@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="../styles/player-page-style.css">
         <link rel="stylesheet" href="../styles/main.css">
         <link rel="stylesheet" href="../styles/player-style.css">
-        <title>Document</title>
+        <title>Player</title>
     </head>
 
     <body>
@@ -40,20 +40,29 @@
                                     <input type="range" min="0" max="0" id="seekbar" step="1">
                                 </div>
                                 <div class="col s2" id="total-duration">00:00</div>
-                                <a href="#">
+                                <a>
                                     <i class="material-icons "id="vol">volume_up</i>
                                 </a>
                                 <div class="col s3 range-field" id="vol-mixer">
                                     <input type="range" min="0" max="100" id="vol-control" step="1">
                                 </div>
                             </div>
-                              <div class="col s8 row valign-wrapper" id="skip-buttons">
-                                    <a href="#">
-                                        <i class="material-icons " id="skip-previous">skip_previous</i>
-                                        <a href="#" class="">
-                                            <i class="material-icons" id="play-pause">play_arrow</i>
-                                        </a>
-                                        <i class="material-icons " id="skip-next">skip_next</i>
+                            <div class="col s8 row valign-wrapper" id="skip-buttons">
+                                <a>
+                                    <i class="material-icons " id="skip-previous">skip_previous</i>
+                                </a>
+                                <a class="">
+                                    <i class="material-icons" id="play-pause">play_arrow</i>
+                                </a>
+                                    <i class="material-icons " id="skip-next">skip_next</i>
+                                </div>
+                                
+                                <div class="advanceTimeButtons">
+                                    <a id="returnSeconds" >
+                                        <i class="material-icons" id="returnSecondsButton">replay_10</i>
+                                    </a>    
+                                    <a id="advanceSeconds">
+                                        <i class="material-icons" id="advanceSecondsButton">forward_10</i>
                                     </a>
                                 </div>
                         </div>
