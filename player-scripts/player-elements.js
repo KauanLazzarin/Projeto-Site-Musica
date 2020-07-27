@@ -18,7 +18,7 @@ export default {
         this.returnSeconds = document.querySelector('#returnSeconds')
         this.advanceSeconds = document.querySelector('#advanceSeconds')
     },
-
+    
     //Inicia o audio no html
     createSoundElement (audio) {
         this.audio = new Audio(audio)
