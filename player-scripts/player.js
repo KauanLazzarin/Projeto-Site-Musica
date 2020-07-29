@@ -82,7 +82,7 @@ export default {
     changeSoundVolum (value) {
         this.audio.volume = value / 100
     },
-
+    
     toggleAudioMuted () {
         this.audio.muted = !this.audio.muted
         if (this.audio.muted == true) {

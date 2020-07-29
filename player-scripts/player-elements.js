@@ -37,12 +37,12 @@ export default {
         // Pula e volta de música
         this.skipNextButton.onclick = () => this.skipMusic()
         this.returnSongButton.onclick = () => this.returnMusic()
-
+        
         //Alteração de volumes e mutar o som
         this.volumMixer.onchange = () => this.changeSoundVolum(this.volumMixer.value)
         this.volumMixer.oninput = () => this.changeSoundVolum(this.volumMixer.value)
         this.volButton.onclick = () => this.toggleAudioMuted()
-
+        
         // Saltar no time da música
         this.seekBar.oninput = () => this.setTimeBar(this.seekBar.value)
         this.seekBar.onclick = () => this.setTimeBar(this.seekBar.value)
