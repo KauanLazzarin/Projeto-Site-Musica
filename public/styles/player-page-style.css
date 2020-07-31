@@ -9,24 +9,6 @@
 .main-title {
     display: flex;
     grid-area: header;
-    max-height: 100px;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(51, 53, 54, 0.527);
-    padding: 20px;
-    border-bottom: 20px solid rgba(0, 0, 0, 0.521);
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-}
-
-.main-title a {
-    font-weight: bold;
-    font-family: 'Rowdies', cursive;
-    font-style: none;
-    font-size: 68px;
-    color: rgb(226, 214, 214);
-    text-decoration: none;
-    transition: 800ms;
 }
 
 .main-title a:hover {

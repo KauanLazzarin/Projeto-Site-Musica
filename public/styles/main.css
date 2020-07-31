@@ -5,6 +5,35 @@ body {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    background: rgb(124,129,172);
     background: linear-gradient(280deg, rgba(124,129,172,1) 13%, rgba(166,135,250,1) 57%, rgba(0,212,255,1) 100%); 
+}
+
+.main-title {
+    display: flex;
+    max-height: 70px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.575);
+    padding: 10px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.521);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.main-title a {
+    font-weight: bold;
+    font-family: 'Rowdies', cursive;
+    font-style: none;
+    font-size: 48px;
+    color: rgb(29, 21, 21);
+    text-decoration: none;
+    transition: 200ms;
+}
+
+.main-title a:hover {
+    opacity: 0.3;
+}
+
+.main-title i {
+    font-size: 48px;
 }

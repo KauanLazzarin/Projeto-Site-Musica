@@ -2,8 +2,8 @@ const express = require('express')
 const server = express()
 const port = 3003
 
-server.use(express.static("public"))
-server.use(express.static("player-scripts"))
+server.use('/public', express.static('public'))
+server.use('/player',express.static('player-scripts'))
 
 
 server.get('/', (req, res) => {
