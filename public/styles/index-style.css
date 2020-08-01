@@ -228,25 +228,3 @@
 /* Fim estilização top bandas*/
 
 /* Começo estilização footer */
-.page-footer {
-    background-color: rgba(51, 53, 54, 0.527);
-    box-sizing: 20px;
-    padding: 5px;
-    border-top: 5px solid rgba(0, 0, 0, 0.521);
-    margin-top: 10vh;
-}
-
-.page-footer h5 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    font-family: 'Ubuntu';
-    font-weight: bold;
-    opacity: 0.6;
-    color: rgb(255, 255, 255);
-}
-
-::-moz-placeholder {  /* Firefox 19+ */
-    color:black;  
- }
