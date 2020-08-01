@@ -24,13 +24,8 @@
     font-size: 48px;
 }
 
-
-/* Começo da estilização do titulo */
-
-
-/*Fim da estilização do titulo*/
-
 /*Início da estilização do menu*/
+
 
 #main-menu {
     width: 1200px;
@@ -72,9 +67,7 @@
 }
 
 #main-menu i {
-    display: inline;
     font-size: 28px;
-    /* padding: 10px; */
 }
 
 #search-button {
