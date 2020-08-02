@@ -17,6 +17,9 @@ server.get('/player', (req, res) => {
 server.get('/userplaylists', (req, res) => {
     return res.sendFile (__dirname + '/src/views/userPlaylists.html')
 })
+server.get('/allgenders', (req, res) => {
+    return res.sendFile (__dirname + '/src/views/allGenders.html')
+})
 
 server.listen(port, () => {
     console.log(`Servidor rodando normalmente na porta ${port}`)
